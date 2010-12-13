@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8acaf0af-f4ff-465b-9b6e-4bb7345fc018}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Inf">
+      <UniqueIdentifier>{69ae6c5c-c992-4fcb-854b-22f8febb4cdf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sys\makefile">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="sys\makefile.inc">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="sys\sources">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="inf\psdrv3.inf">
+      <Filter>Inf</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sys\PSDrv.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sys\PSDrvBulk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\PSDrvDevice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\PSDrvDriver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\PSDrvIOCtls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\PSDrvIso.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sys\PSDrvPrivate.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\PSDrvPublic.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\PSDrvVersion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

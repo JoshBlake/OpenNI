@@ -24,7 +24,7 @@ if "%ERRORLEVEL%" == "1" goto ErrorBuild
 @echo ***********************************
 @echo *** Signing the x86 version... ***
 @echo ***********************************
-IF EXIST ..\sign\myprivatekey.pvk signtool sign /v /ac ..\Sign\MSCV-VSClass3.cer /s My /n "Prime Sense Ltd."  /t http://timestamp.verisign.com/scripts/timstamp.dll /d "Prime Sensor Device Driver v3.0 - %DATE% %TIME% on %COMPUTERNAME%" /du http://www.primesense.com/ ..\Bin\x86\psdrv3.sys
+IF EXIST ..\sign\myprivatekey.pvk signtool sign /v /ac ..\Sign\MSCV-VSClass3.cer /s My /n "joshland.org(Test)"  /t http://timestamp.verisign.com/scripts/timstamp.dll /d "Prime Sensor Device Driver v3.0 - %DATE% %TIME% on %COMPUTERNAME%" /du http://openkinect.org/ ..\Bin\x86\psdrv3.sys
 IF EXIST ..\sign\myprivatekey.pvk signtool verify /v /kp ..\Bin\x86\psdrv3.sys
 if "%ERRORLEVEL%" == "1" goto ErrorSign
 
@@ -40,7 +40,7 @@ if "%ERRORLEVEL%" == "1" goto ErrorBuild
 @echo ************************************
 @echo *** Signing the amd64 version... ***
 @echo ************************************
-IF EXIST ..\sign\myprivatekey.pvk signtool sign /v /ac ..\Sign\MSCV-VSClass3.cer /s My /n "Prime Sense Ltd."  /t http://timestamp.verisign.com/scripts/timstamp.dll /d "Prime Sensor Device Driver v3.0 - %DATE% %TIME% on %COMPUTERNAME%" /du http://www.primesense.com/ ..\Bin\amd64\psdrv3.sys
+IF EXIST ..\sign\myprivatekey.pvk signtool sign /v /ac ..\Sign\MSCV-VSClass3.cer /s My /n "joshland.org(Test)"  /t http://timestamp.verisign.com/scripts/timstamp.dll /d "Prime Sensor Device Driver v3.0 - %DATE% %TIME% on %COMPUTERNAME%" /du http://openkinect.org/ ..\Bin\amd64\psdrv3.sys
 IF EXIST ..\sign\myprivatekey.pvk signtool verify /v /kp ..\Bin\amd64\psdrv3.sys
 if "%ERRORLEVEL%" == "1" goto ErrorSign
 
@@ -72,7 +72,7 @@ if "%ERRORLEVEL%" == "1" goto ErrorCat
 @echo ******************************
 @echo *** Signing the cat file.. ***
 @echo ******************************
-IF EXIST ..\sign\myprivatekey.pvk signtool sign /v /ac ..\Sign\MSCV-VSClass3.cer /s My /n "Prime Sense Ltd."  /t http://timestamp.verisign.com/scripts/timstamp.dll /d "Prime Sensor Device Driver v3.0 - %DATE% %TIME% on %COMPUTERNAME%" /du http://www.primesense.com/ ..\Bin\psdrv3.cat
+IF EXIST ..\sign\myprivatekey.pvk signtool sign /v /ac ..\Sign\MSCV-VSClass3.cer /s My /n "joshland.org(Test)"  /t http://timestamp.verisign.com/scripts/timstamp.dll /d "Prime Sensor Device Driver v3.0 - %DATE% %TIME% on %COMPUTERNAME%" /du http://openkinect.org/ ..\Bin\psdrv3.cat
 IF EXIST ..\sign\myprivatekey.pvk signtool verify /v /kp ..\Bin\psdrv3.cat
 if "%ERRORLEVEL%" == "1" goto ErrorSign
 

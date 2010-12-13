@@ -56,7 +56,9 @@
 #include <io.h>
 #include <assert.h>
 #include <float.h>
+#ifndef __MINGW32__
 #include <crtdbg.h>
+#endif
 
 //---------------------------------------------------------------------------
 // Files

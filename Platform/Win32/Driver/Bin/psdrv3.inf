@@ -50,6 +50,8 @@ DefaultDestDir = 12 ; Driver Dir
 %USB\VID_1D27&PID_0500.DeviceDesc%=psdrv3.Dev, USB\VID_1D27&PID_0500
 %USB\VID_1D27&PID_0600.DeviceDesc%=psdrv3.Dev, USB\VID_1D27&PID_0600&MI_00
 %USB\VID_1D27&PID_0600.DeviceDesc%=psdrv3.Dev, USB\VID_1D27&PID_0600
+%USB\VID_045E&PID_02AE.DeviceDesc%=psdrv3.Dev, USB\VID_045E&PID_02AE
+%USB\VID_045E&PID_02B0.DeviceDesc%=psdrv3.Dev, USB\VID_045E&PID_02B0
 
 [PrimeSense.NTamd64]
 %USB\VID_1D27&PID_0200.DeviceDesc%=psdrv3.Dev, USB\VID_1D27&PID_0200&MI_00
@@ -62,6 +64,8 @@ DefaultDestDir = 12 ; Driver Dir
 %USB\VID_1D27&PID_0500.DeviceDesc%=psdrv3.Dev, USB\VID_1D27&PID_0500
 %USB\VID_1D27&PID_0600.DeviceDesc%=psdrv3.Dev, USB\VID_1D27&PID_0600&MI_00
 %USB\VID_1D27&PID_0600.DeviceDesc%=psdrv3.Dev, USB\VID_1D27&PID_0600
+%USB\VID_045E&PID_02AE.DeviceDesc%=psdrv3.Dev, USB\VID_045E&PID_02AE
+%USB\VID_045E&PID_02B0.DeviceDesc%=psdrv3.Dev, USB\VID_045E&PID_02B0
 
 [psdrv3.Dev.NT]
 CopyFiles=psdrv3.Files.Ext
@@ -138,3 +142,5 @@ USB\VID_1D27&PID_0300.DeviceDesc="PrimeSensor Development Kit 3.x"
 USB\VID_1D27&PID_0400.DeviceDesc="PrimeSensor Development Kit 4.x"
 USB\VID_1D27&PID_0500.DeviceDesc="PrimeSensor Development Kit 5.x"
 USB\VID_1D27&PID_0600.DeviceDesc="PrimeSensor Reference Design 1.08x"
+USB\VID_045E&PID_02AE.DeviceDesc="Xbox NUI Camera (NI)"
+USB\VID_045E&PID_02B0.DeviceDesc="Xbox NUI Motor (NI)"

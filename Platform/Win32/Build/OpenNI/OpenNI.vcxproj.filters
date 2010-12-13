@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ModuleLoader">
+      <UniqueIdentifier>{ccba1443-d962-43cc-a7d4-c067c7289ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModuleInterfaces">
+      <UniqueIdentifier>{cd69c173-fad0-4ec7-8100-405586cbb611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API">
+      <UniqueIdentifier>{4b750aec-d0a2-45f5-b1f0-b8e5b0bcd280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform">
+      <UniqueIdentifier>{58c64cf3-01c1-4fef-ad06-b9470d126073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OS">
+      <UniqueIdentifier>{dba941cb-bdd0-4239-907f-e62a20f86488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{598f64c0-9f95-4ee6-a55b-dd6bfa32d5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataTypes">
+      <UniqueIdentifier>{2b364c35-5fba-455c-90a3-a11f987a8858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TinyXml">
+      <UniqueIdentifier>{3f327e7d-35a8-41ec-a2b8-e8a8374dce1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Recorder">
+      <UniqueIdentifier>{3bd9d2c4-f9a1-40ff-8590-9647a2c60379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Licensing">
+      <UniqueIdentifier>{04d9a8a6-fcf9-463b-9415-85a634c3f751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Res">
+      <UniqueIdentifier>{be90193d-6dd8-4d2c-af51-9b6659ce4596}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Source\OpenNI\Documentation.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\Res\mainicon.ico">
+      <Filter>Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\openNI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnModuleLoader.cpp">
+      <Filter>Source Files\ModuleLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnEnumerationErrors.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnOpenNI.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnQueries.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnUtils.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnXmlConfig.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32CriticalSections.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Debug.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Events.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Files.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32INI.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Keyboard.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Memory.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Mutex.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Network.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Processes.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32SharedLibs.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32SharedMemory.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Strings.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Threads.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\Win32Time.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnOS.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnOSMemoryProfiling.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\XnOSWin32.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnUSB.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\Win32\XnUSBWin32.cpp">
+      <Filter>Source Files\OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnFPSCalculator.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnLog.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnMockNotifier.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnNodeWatcher.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnProfiling.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnScheduler.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnStatusRegister.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnXml.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnBaseNode.cpp">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnNodeManager.cpp">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\External\TinyXml\tinystr.cpp">
+      <Filter>Source Files\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\External\TinyXml\tinyxml.cpp">
+      <Filter>Source Files\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\External\TinyXml\tinyxmlerror.cpp">
+      <Filter>Source Files\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\External\TinyXml\tinyxmlparser.cpp">
+      <Filter>Source Files\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnPlayerImpl.cpp">
+      <Filter>Source Files\Recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnRecorderImpl.cpp">
+      <Filter>Source Files\Recorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Source\OpenNI\XnLicensing.cpp">
+      <Filter>Source Files\Licensing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnModuleInterfaceContainers.h">
+      <Filter>Source Files\ModuleLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnModuleLoader.h">
+      <Filter>Source Files\ModuleLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnModuleCppInterface.h">
+      <Filter>Source Files\ModuleInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnModuleCppRegistratration.h">
+      <Filter>Source Files\ModuleInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnModuleInterface.h">
+      <Filter>Source Files\ModuleInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnCodecIDs.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnContext.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnCppWrapper.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnEnumerationErrors.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\xnInternalFuncs.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnOpenNI.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnPrdNode.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnPrdNodeInfo.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnPrdNodeInfoList.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnPropNames.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnQueries.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnUtils.h">
+      <Filter>Source Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnPlatform.h">
+      <Filter>Source Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\Win32\XnPlatformWin32.h">
+      <Filter>Source Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnOS.h">
+      <Filter>Source Files\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnOSCpp.h">
+      <Filter>Source Files\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\Win32\XnOSWin32.h">
+      <Filter>Source Files\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnUSB.h">
+      <Filter>Source Files\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnUSBInternal.h">
+      <Filter>Source Files\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\Win32\XnUSBWin32.h">
+      <Filter>Source Files\OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnEnum.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnFPSCalculator.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnLog.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnMacros.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnMockNotifier.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnNodeWatcher.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnProfiling.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnScheduler.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnStatus.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnStatusCodes.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnStatusRegister.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnVersion.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnXml.h">
+      <Filter>Source Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\IXnNodeAllocator.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnBaseNode.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnCallback.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnDataTypes.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnEvent.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnGeneralBuffer.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnHash.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnInternalDefs.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnInternalTypes.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnList.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\XnNode.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnNodeAllocator.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnNodeManager.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnQueue.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnStack.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnStringsHash.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnThreadSafeQueue.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnTypes.h">
+      <Filter>Source Files\DataTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\External\TinyXml\tinystr.h">
+      <Filter>Source Files\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\External\TinyXml\tinyxml.h">
+      <Filter>Source Files\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnPlayerImpl.h">
+      <Filter>Source Files\Recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnRecorderImpl.h">
+      <Filter>Source Files\Recorder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Include\XnLicensing.h">
+      <Filter>Source Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Source\OpenNI\XnLicensingInternal.h">
+      <Filter>Source Files\Licensing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Res\Resource-OpenNI.h">
+      <Filter>Res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Res\OpenNI.rc">
+      <Filter>Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
